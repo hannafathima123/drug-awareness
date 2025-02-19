@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    
+}
+@font-face {
+    font-family: 'Dancing Script';
+    src: url('DancingScript-Regular.woff2') format('woff2'),
+        url('DancingScript-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dancing Script';
+    src: url('DancingScript-Bold.woff2') format('woff2'),
+        url('DancingScript-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+#overlay{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0);
+}
+header { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .left { 
+    display: flex;
+    align-items: center;
+}
+
+header .left img { 
+    width: 95px;
+    margin-bottom: 10px;
+}
+
+header .left h1 { 
+
+}
+
+header .middle { 
+
+}
+
+header .middle ul { 
+    display: flex;
+    gap: 135px;
+    font-size: 27px;
+}
+
+header .middle ul li a { 
+    position: relative;
+    color: #000;
+}
+.table { 
+    position:absolute;
+    top: 90px;
+    display: none;;
+}
+
+.table table { 
+
+}
+
+.table table thead { 
+
+}
+
+.table table thead tr { 
+    color: #fff;
+}
+
+.table table thead tr th { 
+
+}
+
+.table table tbody { 
+
+}
+
+.table table tbody tr { 
+
+}
+
+.table table tbody tr td { 
+    color: #fff;
+} 
+
+header .middle ul:after { 
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid #000;
+    bottom: 0;
+}
+
+header .middle ul li img {
+    width: 18px;
+    margin-bottom: -2px;
+}
+
+header .right { 
+
+}
+
+header .right form { 
+    margin-right: 34px;
+     
+   
+}
+
+header .right form input { 
+    padding: 10px 30px;
+    background-image: url(../icons/search.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: left 7px bottom 11px;
+    
+}
+header .right form input::placeholder {
+    color: #000;
+}
+
+header .right form input:hover {
+    animation:pop 0.4s ease-in-out;
+   
+}
+@keyframes pop {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.05);
+    }
+}
+
+main { 
+   
+}
+section#small {
+     display: flex;
+    justify-content: space-around;
+    background: darkseagreen;
+}
+section#small div.left { 
+    padding-top: 230px;
+}
+section#small div.left h1 { 
+    font-size: 48px;
+    text-align: center;
+}
+
+section#small div.left p { 
+    font-size: 28px;
+    text-align: center;
+    margin-top: 12px;
+}
+
+section#small div.right { 
+    padding-bottom: 102px;
+}
+
+section#small div.right img { 
+    width: 455px;
+    border: 3px solid #fff;
+    margin-top: 58px;
+}
+#spotlight { 
+    margin-top: 35px;
+}
+
+#spotlight h1 { 
+    text-align: center;
+    font-size: 64px;
+}
+
+#spotlight ul { 
+    display: flex;
+    justify-content: space-around;
+    padding-top: 140px;
+}
+
+#spotlight ul li { 
+
+}
+
+#spotlight ul li .top { 
+
+}
+
+#spotlight ul li .top .image { 
+
+}
+
+#spotlight ul li .top .image img { 
+    width: 305px;
+}
+#spotlight ul li .top .image img:hover {
+    animation: pop 0.4s ease-in;
+}
+@keyframes pop {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.05);
+    }
+}
+#spotlight ul li .bottom { 
+   padding-bottom: 120px;
+    text-align: center;
+    padding-top: 43px;
+}
+
+#spotlight ul li .bottom h2 { 
+    font-size: 26px;
+}
+
+#spotlight ul li .bottom p { 
+    font-size: 20px;
+    margin-top: 10px;
+}
+footer { 
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: darkseagreen;
+    color: #fff;
+    padding-top: 15px;
+}
+
+footer .first { 
+
+}
+
+footer .first ul { 
+
+}
+
+footer .first ul h1 { 
+
+}
+
+footer .first ul li { 
+
+}
+
+footer .first ul li a { 
+    font-size: 20px;
+    line-height: 2.5;
+    color: #fff;
+}
+
+footer .second { 
+
+}
+
+footer .second ul { 
+
+}
+
+footer .second ul h1 { 
+
+}
+
+footer .second ul li { 
+
+}
+
+footer .second ul li a { 
+    font-size: 20px;
+    line-height: 2.5;
+    color: #fff;
+}
+
+footer .third { 
+
+}
+
+footer .third ul { 
+
+}
+
+footer .third ul h1 { 
+
+}
+
+footer .third ul li { 
+
+}
+
+footer .third ul li a { 
+    font-size: 20px;
+    line-height: 2.5;
+    color: #fff;
+}
+@media screen and (max-width:1850px){
+    
+}

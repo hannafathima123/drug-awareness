@@ -1,0 +1,28 @@
+{
+    "products" :[
+        {
+           "id": 1,
+           "image": "images/cannabis.avif",
+           "name": "Cannabis",
+           "description": "Cannabis refers to the dried leaves, flowers, stems, and seeds of the cannabis plant"
+        },
+        {
+           "id": 2,
+           "image": "images/cocane.jpeg",
+           "name": "cocane",
+           "description": "an addictive stimulant drug made from the leaves of the coca plant"
+        },
+        {
+            "id":3,
+            "image":"images/heroine.jpg",
+            "name":"heroin",
+            "description" :"an opioid drug made from morphine, a natural substance taken from the seed pod of the various opium poppy plants" 
+        },
+         {
+            "id":4,
+            "image":"images/tobacco.jpg",
+            "name":"tobacco",
+            "description" :"Tobacco is a plant with leaves that contain nicotine, a highly addictive chemical." 
+        }
+    ]
+}
